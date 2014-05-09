@@ -43,7 +43,7 @@ set enc=utf-8
 " normal setting
 "--------------------
 set number
-set relativenumber
+"set relativenumber
 set autoindent
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 

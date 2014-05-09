@@ -13,8 +13,8 @@ for i in .vim vimfiles .vimrc .gvimrc; do
   fi
 done
 
-git clone git://github.com/wongyouth/vimfiles ~/vimfiles
-ln -s ~/vimfiles ~/.vim
+git clone git://github.com/charleslei/vimfiles ~/vimfiles
+mv ~/vimfiles ~/.vim
 echo "source ~/.vim/vimrc" > ~/.vimrc
 echo "source ~/.vim/gvimrc" > ~/.gvimrc
 cd ~/.vim
