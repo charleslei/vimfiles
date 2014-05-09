@@ -14,7 +14,7 @@ for i in .vim vimfiles .vimrc .gvimrc; do
 done
 
 git clone git://github.com/charleslei/vimfiles ~/vimfiles
-mv ~/vimfiles ~/.vim
+ln -s ~/vimfiles ~/.vim
 echo "source ~/.vim/vimrc" > ~/.vimrc
 echo "source ~/.vim/gvimrc" > ~/.gvimrc
 cd ~/.vim
