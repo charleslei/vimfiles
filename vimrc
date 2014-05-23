@@ -45,7 +45,7 @@ set enc=utf-8
 set number
 "set relativenumber
 set autoindent
-set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " This means that you can have unwritten changes to a file and open a new file
 " using :e, without being forced to write or undo your changes first.
@@ -55,7 +55,8 @@ set hidden
 set wildmenu
 
 " do not wrap line
-set nowrap
+"set nowrap
+set wrap
 
 " do not create backup, swap file, use git for version managment
 set nobackup
@@ -249,3 +250,4 @@ autocmd filetype js setlocal equalprg=js-beautify\ -f\ -\ -s\ 2
 if filereadable(expand("~/.vimrc.after"))
   source ~/.vimrc.after
 endif
+"
